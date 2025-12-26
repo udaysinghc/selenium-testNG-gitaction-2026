@@ -1,0 +1,69 @@
+<suite name="AutomationSuite">
+    <!--    parallel="tests" thread-count="2"-->
+    <listeners>
+        <!--        <listener class-name="org.example.retryanalyzer.AnnotationTransformer"/>-->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
+    </listeners>
+
+    <!--    Parameterization-->
+    <!--    <parameter name="browser" value="chrome"/>-->
+    <!--    Pass values like browser name, environment, URLs, etc., to your test classes-->
+
+    <!--    <test name="LoginWithByLocatorsTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.LoginWithByLocatorsTest"/>-->
+    <!--            <class name="org.example.testcases.LoginWithPageFactoryTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--        <test name="LoginWithPageFactoryTest">-->
+    <!--            <classes>-->
+    <!--                <class name="org.example.testcases.LoginWithPageFactoryTest"/>-->
+    <!--            </classes>-->
+    <!--        </test>-->
+
+    <!--    <test name="AddToCartTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.AddToCartTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="LoginWithByLocatorsTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.LoginWithByLocatorsTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="LoginWithPageFactoryTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.LoginWithPageFactoryTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="WriteDataInExcelTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.WriteDataInExcelTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+
+    <!--    <test name="SandboxTitleTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.SandboxTitleTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="SandboxCheckboxTest">-->
+    <!--        <classes>-->
+    <!--            <class name="org.example.testcases.SandboxCheckboxTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="OrangeHRMLoginTest">
+        <classes>
+            <class name="org.example.testcases.OrangeHRMLoginTest"/>
+        </classes>
+    </test>
+
+
+</suite>
