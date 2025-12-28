@@ -2,7 +2,7 @@ name: Selenium TestNG Test Suite
 
 on:
   schedule:
-    - cron: "0 3 * * 1" //Monday - at 8:30 AM IST
+    - cron: "0 3 * * 1" #Monday - at 8:30 AM IST
   workflow_dispatch:
     inputs:
       Environment:
